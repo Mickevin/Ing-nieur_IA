@@ -6,3 +6,4 @@ while i < 1000000000:
 
 sec = datetime.now() - now
 sec.total_seconds()
+
