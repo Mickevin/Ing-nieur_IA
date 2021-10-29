@@ -1,0 +1,8 @@
+from datetime import datetime
+now = datetime.now()
+i=0
+while i < 1000000000:
+    i+=1
+
+sec = datetime.now() - now
+sec.total_seconds()
